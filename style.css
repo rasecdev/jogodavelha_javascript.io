@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container #div {
+    margin: 10px 0;
+    /* margin-left: 165px; */
+    /* width: 150px;
+    height: 50px; */
+}
+
+.container table, td, tr {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.container td {
+    width: 150px;
+    height: 150px;
+    font-size: 75px;
+}
+
+.container button {
+    margin-top: 20px;
+    /* margin-left: 165px; */
+    width: 150px;
+    height: 50px;
+}
